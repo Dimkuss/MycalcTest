@@ -314,16 +314,16 @@
             <Button
                 android:id="@+id/zeroBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginRight="4dp"
-                android:layout_weight="2"
+                                android:layout_weight="1"
                 android:text="@string/zeroBtn"
                 android:textSize="30sp" />
 
             <Button
                 android:id="@+id/dotBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/dotBtn"
@@ -332,7 +332,7 @@
             <Button
                 android:id="@+id/equalBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/equalBtn"
