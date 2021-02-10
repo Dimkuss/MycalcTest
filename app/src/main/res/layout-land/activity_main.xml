@@ -17,11 +17,11 @@
         <TextView
             android:id="@+id/calcView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:gravity="end"
-            android:padding="24dp"
             android:text="0"
-            android:textSize="30sp"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -29,7 +29,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_weight="1"
+            android:layout_height="0dp">
 
             <TextView
                 android:id="@+id/textView6"
@@ -113,7 +114,8 @@
         <LinearLayout
             android:id="@+id/buttonsC"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="center"
             android:orientation="horizontal">
 
@@ -124,7 +126,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/cBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/buttonPlusMin"
@@ -133,7 +135,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1.25"
                 android:text="@string/plusMinBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/percentBtn"
@@ -142,7 +144,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/percentBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/divBtn"
@@ -151,7 +153,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/divBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/ingenerBtn"
@@ -161,7 +163,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@color/purple_700"
                 android:text="@string/I"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -169,7 +171,8 @@
         <LinearLayout
             android:id="@+id/buttons789"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="center"
             android:orientation="horizontal">
 
@@ -180,7 +183,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/sevenBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/eightBtn"
@@ -189,7 +192,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/eightBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/nineBtn"
@@ -198,7 +201,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/nineBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/multiplyBtn"
@@ -207,7 +210,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/multiplyBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -215,7 +218,8 @@
         <LinearLayout
             android:id="@+id/buttons456"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="center"
             android:orientation="horizontal">
 
@@ -226,7 +230,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/fourBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/fiveBtn"
@@ -235,7 +239,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/fiveBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/sixBtn"
@@ -244,7 +248,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/sixBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/minusBtn"
@@ -253,7 +257,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/minusBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -261,7 +265,8 @@
         <LinearLayout
             android:id="@+id/buttons123"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="center"
             android:orientation="horizontal">
 
@@ -272,7 +277,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/oneBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/twoBtn"
@@ -281,7 +286,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/twoBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/threeBtn"
@@ -290,7 +295,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/threeBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/plusBtn"
@@ -299,7 +304,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/plusBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -307,7 +312,8 @@
         <LinearLayout
             android:id="@+id/buttons0."
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="bottom"
             android:orientation="horizontal">
 
@@ -316,9 +322,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginRight="4dp"
-                                android:layout_weight="1"
+                android:layout_weight="1"
                 android:text="@string/zeroBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/dotBtn"
@@ -327,7 +333,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/dotBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/equalBtn"
@@ -336,7 +342,7 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:text="@string/equalBtn"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
 
         </LinearLayout>
@@ -360,7 +366,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/purple_700"
             android:text="@string/I"
-            android:textSize="30sp" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/divBtn1"
@@ -370,7 +376,7 @@
             android:layout_marginRight="4dp"
             android:layout_weight="1"
             android:text="@string/divBtn"
-            android:textSize="30sp" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/percentBtn1"
@@ -380,7 +386,7 @@
             android:layout_marginRight="4dp"
             android:layout_weight="1"
             android:text="@string/percentBtn"
-            android:textSize="30sp" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/buttonPlusMin1"
@@ -390,7 +396,7 @@
             android:layout_marginRight="4dp"
             android:layout_weight="1.25"
             android:text="@string/plusMinBtn"
-            android:textSize="30sp" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/buttonC1"
@@ -400,9 +406,8 @@
             android:layout_marginRight="4dp"
             android:layout_weight="1"
             android:text="@string/cBtn"
-            android:textSize="30sp" />
+            android:textSize="24sp" />
     </LinearLayout>
 
 
 </FrameLayout>
-
